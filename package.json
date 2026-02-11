@@ -1,6 +1,6 @@
 {
   "name": "bull-board-react-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A bull-board adapter for React Router v7",
   "repository": {
