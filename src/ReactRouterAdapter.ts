@@ -11,7 +11,11 @@ import type {
 } from "@bull-board/api/typings/app";
 import ejs from "ejs";
 import mime from "mime";
-import { URLPattern } from "urlpattern-polyfill";
+
+const URLPatternImpl: typeof URLPattern =
+  "URLPattern" in globalThis
+    ? URLPattern
+    : (await import("urlpattern-polyfill")).URLPattern;
 
 type ErrorHandler = (error: Error) => ControllerHandlerReturnType;
 
@@ -119,7 +123,7 @@ export class ReactRouterAdapter implements IServerAdapter {
       if (![route.method].flat().some((m) => m === method)) continue;
 
       for (const r of [route.route].flat()) {
-        const pattern = new URLPattern({ pathname: r });
+        const pattern = new URLPatternImpl({ pathname: r });
         const result = pattern.exec({ pathname: relativePath });
         if (result) {
           return {
