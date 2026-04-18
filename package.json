@@ -23,6 +23,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint .",
     "prepare": "husky",
     "release": "np --no-tests",
     "typecheck": "tsc --noEmit"
