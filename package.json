@@ -9,7 +9,7 @@
   },
   "author": "mkizka",
   "license": "MIT",
-  "packageManager": "pnpm@10.29.2",
+  "packageManager": "pnpm@10.33.0",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
