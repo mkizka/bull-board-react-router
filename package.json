@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@bull-board/api": "^7.0.0",
+    "@bull-board/ui": "^7.0.0",
     "ejs": "^5.0.2",
     "mime": "^4.1.0",
     "urlpattern-polyfill": "^10.1.0"

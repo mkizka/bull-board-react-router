@@ -11,6 +11,9 @@ importers:
       '@bull-board/api':
         specifier: ^7.0.0
         version: 7.0.0(@bull-board/ui@7.0.0)
+      '@bull-board/ui':
+        specifier: ^7.0.0
+        version: 7.0.0
       ejs:
         specifier: ^5.0.2
         version: 5.0.2
