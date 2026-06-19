@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@bull-board/api':
-        specifier: ^7.0.0
-        version: 7.1.5(@bull-board/ui@7.1.5)
+        specifier: ^8.0.0
+        version: 8.0.1(@bull-board/ui@8.0.1)
       '@bull-board/ui':
-        specifier: ^7.0.0
-        version: 7.1.5
+        specifier: ^8.0.0
+        version: 8.0.1
       ejs:
         specifier: ^6.0.0
         version: 6.0.1
@@ -71,13 +71,13 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@bull-board/api@7.1.5':
-    resolution: {integrity: sha512-EW0sbTtGIysu9vipdVpPQeToPqOpPgVZTt+pn1Ut3gbSS/GLWbEgIfFtMmSQDUoSL9WH00RzjgUY5K+43nWh0A==}
+  '@bull-board/api@8.0.1':
+    resolution: {integrity: sha512-7FELJHRQPtjH9+r/DUArr4pDVU8r1yeDS9azQUzFtIbsUT5xGjyg5R1RB0I/RfwFfK5bqho/4cpzxJ/UnQjSKA==}
     peerDependencies:
-      '@bull-board/ui': 7.1.5
+      '@bull-board/ui': 8.0.1
 
-  '@bull-board/ui@7.1.5':
-    resolution: {integrity: sha512-2IkatKwNRx/1M9/lAZIptcxS1FPNq6icpp2M46Upwd4olVxs/ujF9Kvs+Ff9ExtIO/OgYfwx7mG2IprGZ+nQCg==}
+  '@bull-board/ui@8.0.1':
+    resolution: {integrity: sha512-gKEGSD8dlUoWFGJJ4I4Q5bDtfB7yJwGfpgA2DVn1G1TzlUSN5n4fzzcGpLf5fS+QhR7tB/niydUiFRQ2zrjVrQ==}
 
   '@eslint-community/eslint-utils@4.9.1':
     resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
@@ -1997,14 +1997,14 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@bull-board/api@7.1.5(@bull-board/ui@7.1.5)':
+  '@bull-board/api@8.0.1(@bull-board/ui@8.0.1)':
     dependencies:
-      '@bull-board/ui': 7.1.5
+      '@bull-board/ui': 8.0.1
       redis-info: 3.1.0
 
-  '@bull-board/ui@7.1.5':
+  '@bull-board/ui@8.0.1':
     dependencies:
-      '@bull-board/api': 7.1.5(@bull-board/ui@7.1.5)
+      '@bull-board/api': 8.0.1(@bull-board/ui@8.0.1)
 
   '@eslint-community/eslint-utils@4.9.1(eslint@10.5.0)':
     dependencies:
