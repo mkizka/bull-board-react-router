@@ -29,8 +29,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@bull-board/api": "^7.0.0",
-    "@bull-board/ui": "^7.0.0",
+    "@bull-board/api": "^8.0.0",
+    "@bull-board/ui": "^8.0.0",
     "ejs": "^6.0.0",
     "mime": "^4.1.0",
     "urlpattern-polyfill": "^10.1.0"
