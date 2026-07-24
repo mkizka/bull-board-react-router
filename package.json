@@ -9,7 +9,7 @@
   },
   "author": "mkizka",
   "license": "MIT",
-  "packageManager": "pnpm@11.11.0",
+  "packageManager": "pnpm@11.15.1",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -43,9 +43,9 @@
     "@types/node": "25.9.5",
     "eslint": "10.7.0",
     "husky": "9.1.7",
-    "lint-staged": "17.0.8",
+    "lint-staged": "17.1.0",
     "np": "11.2.2",
-    "prettier": "3.9.5",
+    "prettier": "3.9.6",
     "prettier-plugin-pkg": "0.22.1",
     "typescript": "6.0.3"
   },
