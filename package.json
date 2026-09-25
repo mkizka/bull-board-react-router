@@ -9,7 +9,7 @@
   },
   "author": "mkizka",
   "license": "MIT",
-  "packageManager": "pnpm@12.4.2",
+  "packageManager": "pnpm@12.5.1",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -40,12 +40,12 @@
     "@tsconfig/node-lts": "24.0.1",
     "@tsconfig/strictest": "2.0.8",
     "@types/ejs": "3.1.5",
-    "@types/node": "25.9.7",
-    "eslint": "10.10.0",
+    "@types/node": "25.9.8",
+    "eslint": "10.11.0",
     "husky": "9.1.7",
     "lint-staged": "17.5.1",
     "np": "12.1.1",
-    "prettier": "3.9.6",
+    "prettier": "3.9.8",
     "prettier-plugin-pkg": "0.22.1",
     "typescript": "6.0.3"
   },
